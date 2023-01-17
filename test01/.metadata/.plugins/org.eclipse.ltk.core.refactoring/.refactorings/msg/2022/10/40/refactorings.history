@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;msg/src/main/webContent/index1.jsp&apos; を &apos;indexlearn.jsp&apos; に変更します" description="リソース &apos;index1.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webContent/index1.jsp" name="indexlearn.jsp" stamp="1664596597539" updateReferences="true"/>&#x0A;<refactoring comment="&apos;index1.jsp&apos; を &apos;webContent&apos; に移動" description="&apos;index1.jsp&apos; を &apos;webContent&apos; に移動" destination="src/main/webContent" element1="src/main/webContent/WEB-INF/index1.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1664596990605" updateReferences="true"/>
+</session>

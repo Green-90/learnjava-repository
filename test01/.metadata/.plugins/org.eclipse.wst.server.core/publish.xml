@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<publish-info>
+  <server id="Tomcat6_Java6" path="publish4.dat"/>
+  <server id="localhost の Tomcat9 (Java11)" path="publish6.dat"/>
+  <server id="Tomcat8_Java8" path="publish3.dat"/>
+</publish-info>

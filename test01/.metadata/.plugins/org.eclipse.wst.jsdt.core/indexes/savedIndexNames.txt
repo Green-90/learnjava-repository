@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Applications/Eclipse_2022-03.app/Contents/workspace/test01/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1323230921.index
+596081038.index
+335885588.index
+789961752.index
+266845879.index
+2051314769.index

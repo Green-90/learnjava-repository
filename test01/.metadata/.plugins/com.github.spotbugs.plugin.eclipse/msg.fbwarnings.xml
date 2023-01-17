@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.6.0" sequence="1" timestamp="1673176560027" analysisTimestamp="1673176558424" release="">
+  <Project projectName="msg">
+    <Jar>/Applications/Eclipse_2022-03.app/Contents/workspace/test01/msg/build/classes</Jar>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/workspace/test01/msg/build/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-ko.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-de.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-cs.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/ecj-4.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-pt-BR.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina-ssi.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/mysql-connector-j-8.0.31.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/mariadb-java-client-3.0.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/jaspic-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-zh-CN.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-ru.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/tomcat/9/lib/tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/jaydev/Applications/mysql-connector-j-8.0.31.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Applications/Eclipse_2022-03.app/Contents/java/11/Home/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/Applications/Eclipse_2022-03.app/Contents/workspace/test01/msg/src/main/java</SrcDir>
+  </Project>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="sample.LoginServlet">
+      <SourceLine classname="sample.LoginServlet" sourcefile="LoginServlet.java" sourcepath="sample/LoginServlet.java"/>
+    </Class>
+    <Method classname="sample.LoginServlet" name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" isStatic="false">
+      <SourceLine classname="sample.LoginServlet" start="32" end="89" startBytecode="0" endBytecode="142" sourcefile="LoginServlet.java" sourcepath="sample/LoginServlet.java"/>
+    </Method>
+    <SourceLine classname="sample.LoginServlet" start="51" end="51" startBytecode="65" endBytecode="65" sourcefile="LoginServlet.java" sourcepath="sample/LoginServlet.java"/>
+    <SourceLine classname="sample.LoginServlet" start="51" end="51" startBytecode="65" endBytecode="65" sourcefile="LoginServlet.java" sourcepath="sample/LoginServlet.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="23" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <LocalVariable name="rs" register="3" pc="32" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="sample.connect" start="16" end="16" startBytecode="31" endBytecode="31" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    <SourceLine classname="sample.connect" start="16" end="16" startBytecode="31" endBytecode="31" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="rs"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.STORE_OF_DATABASE_VALUE" value="true"/>
+  </BugInstance>
+  <BugInstance type="DMI_CONSTANT_DB_PASSWORD" priority="2" rank="7" abbrev="Dm" category="SECURITY" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="23" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <SourceLine classname="sample.connect" start="12" end="12" startBytecode="12" endBytecode="12" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    <SourceLine classname="sample.connect" start="12" end="12" startBytecode="12" endBytecode="12" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" start="7" end="23" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="190" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="sample.connect" start="16" end="16" startBytecode="26" endBytecode="26" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="sample.connect" start="17" end="17" startBytecode="32" endBytecode="32" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="sample.connect" start="18" end="18" startBytecode="40" endBytecode="40" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="sample.connect" start="23" end="23" startBytecode="51" endBytecode="51" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="190" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="sample.connect" start="14" end="14" startBytecode="17" endBytecode="17" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="sample.connect" start="16" end="16" startBytecode="23" endBytecode="23" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="sample.connect" start="17" end="17" startBytecode="32" endBytecode="32" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="sample.connect" start="18" end="18" startBytecode="40" endBytecode="40" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="sample.connect" start="23" end="23" startBytecode="51" endBytecode="51" sourcefile="connect.java" sourcepath="sample/connect.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="23" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Connection;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Connection" start="1549" end="1714" sourcefile="Connection.java" sourcepath="java/sql/Connection.java"/>
+    </Type>
+    <SourceLine classname="sample.connect" start="12" end="12" startBytecode="12" endBytecode="12" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    <SourceLine classname="sample.connect" start="12" end="12" startBytecode="12" endBytecode="12" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="sample.connect">
+      <SourceLine classname="sample.connect" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Class>
+    <Method classname="sample.connect" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="sample.connect" start="11" end="23" startBytecode="0" endBytecode="23" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/Statement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.Statement" start="1096" end="1647" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Type>
+    <SourceLine classname="sample.connect" start="14" end="14" startBytecode="17" endBytecode="17" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+    <SourceLine classname="sample.connect" start="14" end="14" startBytecode="17" endBytecode="17" sourcefile="connect.java" sourcepath="sample/connect.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 3 Jan 2023 20:31:31 +0900" total_classes="5" referenced_classes="60" total_bugs="8" total_size="89" num_packages="2" java_version="17.0.2" vm_version="17.0.2+8" cpu_seconds="2.50" clock_seconds="1.61" peak_mbytes="833.80" alloc_mbytes="3641.00" gc_seconds="0.02" priority_2="7" priority_1="1">
+    <PackageStats package="" total_bugs="0" total_types="2" total_size="30">
+      <ClassStats class="HelloWorld1" sourceFile="HelloWorld1.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="HelloWorld2" sourceFile="HelloWorld2.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="sample" total_bugs="8" total_types="3" total_size="59" priority_2="7" priority_1="1">
+      <ClassStats class="sample.LoginServlet" sourceFile="LoginServlet.java" interface="false" size="38" bugs="1" priority_2="1"/>
+      <ClassStats class="sample.Sample" sourceFile="Sample.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="sample.connect" sourceFile="connect.java" interface="false" size="14" bugs="7" priority_2="6" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="669" invocations="2" avgMicrosecondsPerInvocation="334589" maxMicrosecondsPerInvocation="529560" standardDeviationMicrosecondsPerInvocation="194971"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="172" invocations="523" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="22002" standardDeviationMicrosecondsPerInvocation="1087"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="76" invocations="526" avgMicrosecondsPerInvocation="145" maxMicrosecondsPerInvocation="1572" standardDeviationMicrosecondsPerInvocation="210"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="56" invocations="11" avgMicrosecondsPerInvocation="5125" maxMicrosecondsPerInvocation="50847" standardDeviationMicrosecondsPerInvocation="14498"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="48" invocations="113" avgMicrosecondsPerInvocation="426" maxMicrosecondsPerInvocation="17676" standardDeviationMicrosecondsPerInvocation="1722"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="44" invocations="91" avgMicrosecondsPerInvocation="488" maxMicrosecondsPerInvocation="25009" standardDeviationMicrosecondsPerInvocation="2654"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="37" invocations="60" avgMicrosecondsPerInvocation="620" maxMicrosecondsPerInvocation="5309" standardDeviationMicrosecondsPerInvocation="1154"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="32" invocations="60" avgMicrosecondsPerInvocation="549" maxMicrosecondsPerInvocation="6029" standardDeviationMicrosecondsPerInvocation="1039"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="27" invocations="12" avgMicrosecondsPerInvocation="2290" maxMicrosecondsPerInvocation="19052" standardDeviationMicrosecondsPerInvocation="5105"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="27" invocations="12" avgMicrosecondsPerInvocation="2258" maxMicrosecondsPerInvocation="17047" standardDeviationMicrosecondsPerInvocation="4563"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1673176560023" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

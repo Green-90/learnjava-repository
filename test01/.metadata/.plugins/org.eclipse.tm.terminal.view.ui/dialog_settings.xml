@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="Telnet ターミナル"/>
+		<section name="SettingsPanelControl">
+			<section name="SSH ターミナル">
+			</section>
+			<section name="ローカル・ターミナル">
+				<item key="encoding" value="UTF-8"/>
+			</section>
+			<section name="Telnet ターミナル">
+				<item key="lastHost" value="eclipse"/>
+				<list key="hosts">
+					<item value="eclipse|telnet.eol:CR+NUL:ip.port:23:ip.host:eclipse:timeout:5"/>
+				</list>
+			</section>
+		</section>
+	</section>
+</section>

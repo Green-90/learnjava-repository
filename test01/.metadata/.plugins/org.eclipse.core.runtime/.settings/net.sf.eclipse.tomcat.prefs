@@ -1,0 +1,8 @@
+computeSourcePath=true
+contextsDir=/Applications/Eclipse_2022-03.app/Contents/tomcat/apache-tomcat-9.0.65/conf/Catalina/localhost
+eclipse.preferences.version=1
+managerUrl=http\://localhost\:8080/manager
+tomcatConfigFile=/Applications/Eclipse_2022-03.app/Contents/tomcat/apache-tomcat-9.0.65/conf/server.xml
+tomcatDir=/Applications/Eclipse_2022-03.app/Contents/tomcat/apache-tomcat-9.0.65
+tomcatJRE=1494092286375
+tomcatVersion=tomcatV9
